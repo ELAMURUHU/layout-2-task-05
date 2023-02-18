@@ -1,0 +1,697 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+	
+}
+.container{
+	width:1170px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-container{
+	display:flex;
+	flex-wrap:wrap;
+	margin-left:-15px;
+	margin-right:-15px;
+	/* padding-left:15px;
+	padding-right:15px; */
+}
+.flex-item-1{
+	width:8.33%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item-2{
+	width:16.66%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item-3{
+	width:25%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item-4{
+	width:33.33%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item-5{
+	width:41.66%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item-6{
+	width:50%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item-7{
+	width:58.33%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item-8{
+	width:66.66%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item-9{
+	width:75%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item-10{
+	width:83.33%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item-11{
+	width:91.66%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.flex-item-12{
+	width:100%;
+	flex:0 0 auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+
+/* header section starts */
+
+.header{
+	background-color:gray;
+	padding:40px 0;
+	width:auto;
+}
+.logo{
+	background-color:red;
+	height:50px;
+	width:auto;
+	
+}
+.nav-bar{
+	background-color:green;
+	height:50px;
+	width:auto;
+}
+.nav-bar-button{
+	background-color:red;
+	height:50px;
+	width:auto;
+}
+
+/* header section ends */
+
+
+
+/* banner section starts */
+
+
+.banner-section{
+	background-color:brown;
+	padding:85px 0;
+
+}
+.intro{
+	background-color:yellow;
+	height:150px;
+	width:auto;
+    
+}
+.flex-container.introduction{
+	justify-content:center;
+}
+
+
+.flex-container.space{
+	justify-content:center;
+}
+.box-1{
+	background-color:white;
+	height:200px;
+	width:auto;
+	margin-top:30px;
+}
+.box-2{
+	background-color:white;
+	height:200px;
+	width:auto;
+	margin-top:30px;
+}
+.box-3{
+	background-color:white;
+	height:200px;
+	width:auto;
+	margin-top:30px;
+}
+.box-4{
+	background-color:white;
+	height:200px;
+	width:auto;
+	margin-top:30px;
+}
+.box-5{
+	background-color:white;
+	height:200px;
+	width:auto;
+	margin-top:30px;
+}
+
+/* banner section ends */
+
+
+/* introductory-section starts */
+
+
+.introductory-section{
+	background-color:yellow;
+	padding:80px 0;
+	
+}
+.content-1{
+	background-color:red;
+	height:300px;
+	width:auto;
+}
+.content-2{
+	background-color:red;
+	height:300px;
+	width:auto;
+}
+
+
+
+/* introductory-section ends */
+
+/* brand-section starts */
+
+
+.brand-section{
+	background-color:orange;
+	padding:60px 0;
+}
+.brand-1{
+	background-color:purple;
+	height:50px;
+	width:auto;
+	
+}
+.brand-2{
+	background-color:purple;
+	height:50px;
+	width:auto;
+	
+}
+.brand-3{
+	background-color:purple;
+	height:50px;
+	width:auto;
+	
+}
+.brand-4{
+	background-color:purple;
+	height:50px;
+	width:auto;
+	
+}
+.brand-5{
+	background-color:purple;
+	height:50px;
+	width:auto;
+	
+}
+.brand-6{
+	background-color:purple;
+	height:50px;
+	width:auto;
+	
+}
+
+
+
+/* brand-section ends */
+
+/* ad-section starts  */
+
+.ad-section{
+	background-color:gray;
+	padding:80px 0;
+}
+.pic{
+	background-color:white;
+	height:400px;
+	width:auto;
+}
+
+.lay-1{
+	background-color:white;
+	height:70px;
+	width:100%;
+}
+.lay-2{
+	background-color:white;
+	height:70px;
+	width:100%;
+	
+}
+.lay-3{
+	background-color:white;
+	height:70px;
+	width:100%;
+	margin-top:30px;
+}
+.lay-4{
+	background-color:white;
+	height:70px;
+	width:100%;
+	margin-top:30px;
+}
+.lay-5{
+	background-color:white;
+	height:70px;
+	width:100%;
+	margin-top:30px;
+}
+.lay-6{
+	background-color:white;
+	height:70px;
+	width:100%;
+	margin-top:30px;
+}
+.lay-7{
+	background-color:white;
+	height:70px;
+	width:100%;
+	margin-top:30px;
+}
+.lay-8{
+	background-color:white;
+	height:70px;
+	width:100%;
+	margin-top:30px;
+}
+
+
+
+/*  ad-section starts  */
+
+/*  service-section starts  */
+
+.service-section{
+	background-color:yellow;
+	padding:80px 0;
+}
+.headx{
+	background-color:red;
+	height:50px;
+}
+.service-1{
+	background-color:green;
+	height:200px;
+	width:auto;
+	margin-top:20px;
+}
+.service-2{
+	background-color:green;
+	height:200px;
+	width:auto;
+	margin-top:20px;
+}
+.service-3{
+	background-color:green;
+	height:200px;
+	width:auto;
+	margin-top:20px;
+}
+.service-4{
+	background-color:green;
+	height:200px;
+	width:auto;
+	margin-top:20px;
+}
+.service-5{
+	background-color:green;
+	height:200px;
+	width:auto;
+	margin-top:20px;
+}
+.service-6{
+	background-color:green;
+	height:200px;
+	width:auto;
+	margin-top:20px;
+}
+
+
+
+
+ /* service-section ends  */
+
+
+
+ /* banner-2-section starts */ 
+ 
+ .banner-2-section{
+	 background-color:pink;
+	 padding:80px 0;
+ }
+ 
+ .details{
+	 background-color:white;
+	 height:50px;
+	 width:auto;
+ }
+ 
+ 
+/* banner-2-section ends  */
+ 
+ /* portfolio section starts */
+ 
+ .portfolio-section{
+	 background-color:#0000ff8c;
+	 padding:80px 0;
+	 
+ }
+ .portfolio-heading{
+	 background-color:red;
+	 height:50px;
+	 width:auto;
+ }
+ .portfolio-menu-1{
+	 background-color:white;
+	 height:50px;
+	 width:auto;
+	 margin-top:30px;
+ }
+ .flex-container.portfolio-navmenus{
+	 justify-content:center;
+ }
+ .portfolio-image-1{
+	 background-color:white;
+	 height:400px;
+	 width:auto;
+	 margin-top:20px;
+ }
+ .portfolio-image-2{
+	 background-color:white;
+	 height:270px;
+	 width:auto;
+	 margin-top:20px;
+ }
+ .portfolio-image-3{
+	 background-color:white;
+	 height:200px;
+	 width:auto;
+	 margin-top:20px;
+ }
+ .portfolio-image-4{
+	 background-color:white;
+	 height:500px;
+	 width:auto;
+	 margin-top:20px;
+ }
+ .portfolio-image-5{
+	 background-color:white;
+	 height:420px;
+	 width:auto;
+	 margin-top:20px;
+ }
+ .portfolio-image-6{
+	 background-color:white;
+	 height:270px;
+	 width:auto;
+	 margin-top:20px;
+ }
+ .portfolio-image-7{
+	 background-color:white;
+	 height:200px;
+	 width:auto;
+	 margin-top:20px;
+ }
+ .portfolio-image-8{
+	 background-color:white;
+	 height:200px;
+	 width:auto;
+	 margin-top:20px;
+ }
+ .portfolio-image-9{
+	 background-color:white;
+	 height:200px;
+	 width:auto;
+	 margin-top:20px;
+ }
+ 
+ /* portfolio section ends */
+
+/* client-section starts */
+
+.client-section{
+	background-color:cyan;
+	padding:80px 0;
+}
+.pic-3{
+	background-color:blue;
+	height:260px;
+	width:auto;
+}
+
+.desc-1{
+	background-color:white;
+	height:70px;
+	width:auto;
+}
+.desc-2{
+	background-color:white;
+	height:70px;
+	width:auto;
+	margin-top:20px;
+}
+.desc-3{
+	background-color:white;
+	height:70px;
+	width:auto;
+	margin-top:20px;
+}
+.desc-4{
+	background-color:white;
+	height:70px;
+	width:auto;
+	margin-top:20px;
+}
+.desc-5{
+	background-color:white;
+	height:70px;
+	width:auto;
+	margin-top:20px;
+}
+
+
+/* client-section ends */
+
+
+/* comment section starts */
+
+.comment{
+	background-color:gray;
+	padding:80px 0;
+}
+.commentor-pic{
+	background-color:white;
+	height:50px;
+	width:auto;
+}
+.commentor-name{
+	background-color:white;
+	height:50px;
+	width:auto;
+	margin-top:20px;
+}
+.commentor-experience{
+	background-color:white;
+	height:50px;
+	width:auto;
+	margin-top:20px;
+}
+.flex-container.user-explain{
+	justify-content:center;
+}
+
+
+/* comment section ends */
+
+/* team section starts */
+
+.team-members{
+	background-color:yellow;
+	 padding:80px 0;
+}
+.page-heading{
+	background-color:red;
+	height:50px;
+	width:auto;
+}
+.team-member-1{
+	background-color:#ff00006e;
+	height:300px;
+	width:auto;
+	margin-top:25px;
+}
+.team-member-2{
+	background-color:#ff00006e;
+	height:300px;
+	width:auto;
+	margin-top:25px;
+}
+.team-member-3{
+	background-color:#ff00006e;
+	height:300px;
+	width:auto;
+	margin-top:25px;
+}
+.team-member-4{
+	background-color:#ff00006e;
+	height:300px;
+	width:auto;
+	margin-top:25px;
+}
+
+/* team section ends */
+
+/* contact section starts */
+.contact-section{
+	background-color:gray;
+	padding:80px 0;
+}
+.contact-map{
+	background-color:white;
+	height:200px;
+	width:auto;
+	margin-top:30px;
+}
+.contact-info-1{
+	background-color:white;
+	height:80px;
+	width:auto;
+	margin-top:50px;
+}
+.contact-info-2{
+	background-color:white;
+	height:80px;
+	width:auto;
+	margin-top:20px;
+}
+.contact-info-3{
+	background-color:white;
+	height:80px;
+	width:auto;
+	margin-top:20px;
+}
+.contact-info-4{
+	background-color:white;
+	height:80px;
+	width:auto;
+	margin-top:20px;
+}
+.contact-form{
+	background-color:white;
+	height:40px;
+	width:auto;
+	margin-top:50px;
+}
+.name-1{
+	background-color:white;
+	height:50px;
+	width:auto;
+}
+
+.send-button{
+	background-color:white;
+	height:30px;
+	width:auto;
+	margin-top:20px;
+	
+}
+.flex-container.call{
+	justify-content:center;
+}
+
+
+/* contact section ends */
+
+/* end-credit-section starts */
+
+.end-credit-section{
+	background-color:black;
+	padding:80px;
+	
+}
+.address{
+	background-color:white;
+	height:300px;
+	width:auto;
+		
+}
+
+.useful-links{
+	background-color:white;
+	height:300px;
+	width:auto;
+		
+}
+
+.provision{
+	background-color:white;
+	height:300px;
+	width:auto;
+		
+}
+
+.news-letter{
+	background-color:white;
+	height:300px;
+	width:auto;
+		
+}
+
+/* end-credit-section ends */
+
+
+/* footer section starts */
+
+.footer{
+	background-color:gray;
+	padding:50px 0;
+}
+.copyright{
+	background-color:white;
+	height:50px;
+	width:auto;
+}
+.flex-container.end{
+	justify-content:center;
+}
+
+
+
+
+/* footer section ends */
+
+
+
